@@ -194,7 +194,7 @@ section{
 
 .home .content h3{
    text-transform: uppercase;
-   font-size: 5rem;
+   font-size: 4rem;
    margin-bottom: .5rem;
 }
 
@@ -317,7 +317,8 @@ section{
 .about .edu-exp .row .box-container .box{
    text-align: left;
    margin:1.5rem 0;
-   background-color: var(--light-bg);
+    border:var(--border-light);
+	background-color:rgb(255, 254, 217);
    padding:2rem;
 }
 
@@ -370,9 +371,9 @@ section{
 }
 
 .services .box-container .box:hover{
-   background-color: var(--black);
+   background-color:rgb(255, 254, 217);
 }
-
+/*
 .services .box-container .box:hover i{
    color:var(--white);
 }
@@ -380,7 +381,7 @@ section{
 .services .box-container .box:hover p{
    color:var(--white);
 }
-
+*/
 .portfolio .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -451,7 +452,7 @@ section{
    height: 7rem;
    width: 7rem;
    line-height: 7rem;
-   color:var(--black);
+   color:var(--blue);
    background-color: var(--blue);
    margin-bottom: .5rem;
 }
