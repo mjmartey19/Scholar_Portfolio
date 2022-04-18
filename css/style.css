@@ -318,12 +318,13 @@ section{
    text-align: left;
    margin:1.5rem 0;
     border:var(--border-light);
-	background-color:rgb(255, 254, 217);
-   padding:2rem;
+	background-color:var(--black);
+    padding:2rem;
 }
 
 .about .edu-exp .row .box-container .box span{
    font-size: 1.5rem;
+    color:var(--white);
 }
 
 .about .edu-exp .row .box-container .box h3{
@@ -331,12 +332,14 @@ section{
    font-weight: normal;
    margin-top: 1.5rem;
    margin-bottom: 1rem;
+   color:var(--white);
 }
 
 .about .edu-exp .row .box-container .box p{
    line-height: 1.5;
    font-size: 1.7rem;
    line-height: 2;
+   color:var(--white);
 }
 
 .services .box-container{
@@ -371,9 +374,9 @@ section{
 }
 
 .services .box-container .box:hover{
-   background-color:rgb(255, 254, 217);
+   background-color: var(--black);
 }
-/*
+
 .services .box-container .box:hover i{
    color:var(--white);
 }
@@ -381,7 +384,7 @@ section{
 .services .box-container .box:hover p{
    color:var(--white);
 }
-*/
+
 .portfolio .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
