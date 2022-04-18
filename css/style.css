@@ -461,7 +461,7 @@ section{
    font-size: 2.5rem;
 }
 
-.contact .box-container .box p{
+.contact .box-container .box a{
    font-size: 2rem;
    text-transform: none;
 }
