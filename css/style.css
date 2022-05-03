@@ -445,7 +445,7 @@ section{
 
 .review .box-container .box .stars i{
   font-size: 2rem;
-  color:var(--red);
+  color:gold;
   padding:.5rem 0;
 }
 
@@ -454,7 +454,9 @@ section{
   color:#eee;
   padding:1rem 0;
 }
-
+.review .review-slider{
+  padding-bottom: 2rem;
+}
 
 .contact form{
    max-width: 70rem;
@@ -503,7 +505,7 @@ section{
    height: 7rem;
    width: 7rem;
    line-height: 7rem;
-   color:var(--blue);
+   color:var(--white);
    background-color: var(--blue);
    margin-bottom: .5rem;
 }
@@ -546,8 +548,8 @@ section{
 }
 
 .scrollup__icon{
-  font-size: 1rem;
-  color: var(--blue);
+  font-size: 2rem;
+  color: var(--white);
 }
 
 .scrollup:hover{
