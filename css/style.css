@@ -212,6 +212,9 @@ section{
    padding:1rem 0;
 }
 
+.home .content img{
+width:20rem;	
+}
 .about .biography p{
    margin:2rem auto;
    max-width: 70rem;
